@@ -95,9 +95,49 @@ I identified three geohashes in downtown montreal with high numbers of bars, res
 
 The next step was that I split these three geohashes into 96 more precise geohashes and created data frames with the number of transit stations and bars/restaurants in each of the smaller geohashes.
 
-Then I prepared further scatterplots for these 96 geohashes. I saved them all.
+Then I prepared further scatterplots for these 96 geohashes. I saved them all as jpgs and pngs.
+
+#### EDA Non Scatterplots
+
+I loaded pandas, os, matplotlib, numpy, seaborn, and statsmodels packages and set my working directory and loaded my dataframes.
+
+I defined functions that I used to calculate distance between latitude longitude pairs.
+
+I edited my dataframes to calculate the number of nearby total stations and nearby rail stations for each establishment.
+
+I created a series of bar graphs showing the number of nearby transit stations nearby the establishments and bars and restaurants that had the most nearby stations.
+
+I created a series of histograms showing the distributions of how many transit stations are nearby establishments and bars and restaurants.
+
+I created a series of box plots showing how the price categories and rating categories was associated with the number of nearby transit stations or rail stations.
+
+I saved my results as jpgs and pngs.
+
+#### Tableau
+
+I created map diagrams on Tableau to show where the bars, restaurants, subway stations, light rail stations, and citybike stations are distributed throughout Montreal.
+
+#### Regression Analysis
+
+I loaded pandas, os, matplotlib, numpy, seaborn, and statsmodels packages and set my working directory and loaded my dataframes.
+
+I defined functions that I used to calculate distance between latitude longitude pairs.
+
+I edited my dataframes to calculate the number of nearby total stations and nearby rail stations for each establishment. I also added columns for whether or not an establishment was "outstanding" (Google rating 4.5 or above) or "exorbitant in price" (Price rating of 4.0).
+
+I then did a series of multiveriable regresssion analyses to see how nearby citybikes stations, light rail stations, and subway stations predicted the ratings of establishments and the prices of establishments.
+
+I also did a series of logistic regression analyses to see how the number of nearby transit stations predicted if an establishment was outstanding or exorbitant in price.
+
+I saved my results as CSVs.
+
+#### All Graphics Produced During Data Analysis Of Businesses In Montreal
+
+I made a powerpoint containing all the graphs, images, and regression analysis results produced during this project.
 
 ## Results
+
+
 
 ## Challenges
 
