@@ -137,8 +137,30 @@ I made a powerpoint containing all the graphs, images, and regression analysis r
 
 ## Results
 
+When analyzing Montreal using Geohashes at precision 5, the number of nearby total transit stations and number of nearby total rail stations were consistently predicitive of the number of nearby bars and or restaurants.
+These associations were very strong and had high degrees of statistical significance. For example the R-squared value for the Scatterplot of Transit vs Establishment Counts by Geohash was 0.803 and the p value was 2.96 * 10^-19.
 
+When using Geohashes at precision 6, these associations were still consistent but weaker. For example, for Scatterplot of Transit vs Establishment Counts by Geohash Precision 6 the R-squared value was 0.305 and the p value was 3.54 * 10^-08.
+
+Establishments with the most nearby transit stations included downtown places such as Saiko Bistrot Izakaya, Monsieur cafe & vins, The Old Dublin Pub & Restaurant, and Piranha Bar.
+
+Histograms showed a consistently skewed right pattern with most establishments haivng few nearby transit stations and relatively fewer establishments having over 40.
+
+Most of the multivariable logistic regression analyses and logistic regression analyses found that the number of nearby transit stations or nearby rail stations had a predictive value of the quality or price of an establishment that was so weak as to be not worth considering.
+Some of these analyses found results that were technically statistically significant, but still had R-squared values close to zero. The only regression analysis that I consider to have noteworthy results was the one asking if the number of nearby rail stations predicts if
+a restaurant is exorbitant in price. It found a positive R-squared value of 0.1812. I think this is sensible because very expensive restaurants are more likely to be put downtown where there are many rail stations, such as Restaurant Pangea which is located between city hall and 
+the Notre Dame Basilica Cathedral.
 
 ## Challenges
 
+The most significant challenge of this project was dealing with Google Places API call. This unfortunately restricted me to only calling for areas of Montreal near transit stations and in a grid latitude-longitude pairs surrounding downtown.
+Running though my list of coordinates was very time consuming and in similar assignments I should find a way to automate these sorts of procedures.
+
 ## Future Goals
+
+Future goals would include:
+
+1. Find ways to automate repeated loops of Google Places API calls over lists of coordinates to query Google Places API more efficiently.
+2. Scale up my investigation of bars and restuarants so that they cover all of Montreal.
+3. Conduct similar analyses of other North American cities including Ottawa, Toronto, Hamilton, Quebec City, Boston, and New York.
+4. Analyze if some genres of restaurants have more transit stations than other genres. For example, examine if Indian Restaurants have more nearby transit stations than pizza restaurants.
