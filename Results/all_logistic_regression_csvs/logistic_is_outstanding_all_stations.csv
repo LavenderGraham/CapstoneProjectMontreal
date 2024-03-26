@@ -1,0 +1,11 @@
+                     Logit Regression Results                    
+Dep. Variable:  ,Is Outstanding  ,  No. Observations:  ,  3191   
+Model:          ,Logit           ,  Df Residuals:      ,  3189   
+Method:         ,MLE             ,  Df Model:          ,     1   
+Date:           ,Sun, 24 Mar 2024,  Pseudo R-squ.:     ,9.468e-05
+Time:           ,23:04:06        ,  Log-Likelihood:    , -1883.9 
+converged:      ,True            ,  LL-Null:           , -1884.0 
+Covariance Type:,nonrobust       ,  LLR p-value:       ,0.5503   
+               ,   coef   , std err ,    z    ,P>|z| ,  [0.025 ,  0.975] 
+const          ,   -0.9747,    0.049,  -19.981, 0.000,   -1.070,   -0.879
+Nearby_Stations,    0.0020,    0.003,    0.599, 0.549,   -0.005,    0.009
