@@ -146,7 +146,7 @@ Establishments with the most nearby transit stations included downtown places su
 
 Histograms showed a consistently skewed right pattern with most establishments haivng few nearby transit stations and relatively fewer establishments having over 40.
 
-Most of the multivariable logistic regression analyses and logistic regression analyses found that the number of nearby transit stations or nearby rail stations had a predictive value of the quality or price of an establishment that was so weak as to be not worth considering.
+Most of the multivariable inear regression analyses and logistic regression analyses found that the number of nearby transit stations or nearby rail stations had a predictive value of the quality or price of an establishment that was so weak as to be not worth considering.
 Some of these analyses found results that were technically statistically significant, but still had R-squared values close to zero. The only regression analysis that I consider to have noteworthy results was the one asking if the number of nearby rail stations predicts if
 a restaurant is exorbitant in price. It found a positive R-squared value of 0.1812. I think this is sensible because very expensive restaurants are more likely to be put downtown where there are many rail stations, such as Restaurant Pangea which is located between city hall and 
 the Notre Dame Basilica Cathedral.
