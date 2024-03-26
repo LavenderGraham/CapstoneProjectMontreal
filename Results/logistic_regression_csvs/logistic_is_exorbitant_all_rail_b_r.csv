@@ -1,0 +1,11 @@
+                      Logit Regression Results                      
+Dep. Variable:  ,Exorbitant In Price,  No. Observations:  ,  3191   
+Model:          ,Logit              ,  Df Residuals:      ,  3189   
+Method:         ,MLE                ,  Df Model:          ,     1   
+Date:           ,Mon, 25 Mar 2024   ,  Pseudo R-squ.:     ,0.08766  
+Time:           ,23:06:40           ,  Log-Likelihood:    , -106.10 
+converged:      ,True               ,  LL-Null:           , -116.29 
+Covariance Type:,nonrobust          ,  LLR p-value:       ,6.322e-06
+                    ,   coef   , std err ,    z    ,P>|z| ,  [0.025 ,  0.975] 
+const               ,   -5.9298,    0.351,  -16.903, 0.000,   -6.617,   -5.242
+Nearby_Rail_Stations,    0.1683,    0.033,    5.061, 0.000,    0.103,    0.233

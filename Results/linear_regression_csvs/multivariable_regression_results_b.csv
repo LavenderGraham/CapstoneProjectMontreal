@@ -1,0 +1,22 @@
+                      OLS Regression Results                     
+Dep. Variable:   ,Rating          ,  R-squared:         ,   0.022
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.016
+Method:          ,Least Squares   ,  F-statistic:       ,   3.879
+Date:            ,Mon, 25 Mar 2024,  Prob (F-statistic):,0.00923 
+Time:            ,22:21:30        ,  Log-Likelihood:    , -455.75
+No. Observations:,   523          ,  AIC:               ,   919.5
+Df Residuals:    ,   519          ,  BIC:               ,   936.5
+Df Model:        ,     3          ,                     ,        
+Covariance Type: ,nonrobust       ,                     ,        
+                          ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+const                     ,    4.0766,    0.038,  106.345, 0.000,    4.001,    4.152
+Nearby_CityBikes_Stations ,   -0.0004,    0.006,   -0.067, 0.946,   -0.012,    0.011
+Nearby_Subway_Stations    ,    0.0369,    0.020,    1.855, 0.064,   -0.002,    0.076
+Nearby_Light_Rail_Stations,   -0.0368,    0.012,   -2.964, 0.003,   -0.061,   -0.012
+Omnibus:      ,499.203,  Durbin-Watson:     ,   1.979 
+Prob(Omnibus):, 0.000 ,  Jarque-Bera (JB):  ,16969.214
+Skew:         ,-4.227 ,  Prob(JB):          ,    0.00 
+Kurtosis:     ,29.594 ,  Cond. No.          ,    20.7 
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
